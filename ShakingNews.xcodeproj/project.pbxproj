@@ -13,6 +13,7 @@
 		59E53CCC24533D2700A6B55D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E53CCA24533D2700A6B55D /* Main.storyboard */; };
 		59E53CCE24533D2800A6B55D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E53CCD24533D2800A6B55D /* Assets.xcassets */; };
 		59E53CD124533D2800A6B55D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E53CCF24533D2800A6B55D /* LaunchScreen.storyboard */; };
+		59E53CDA2453402200A6B55D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E53CD92453402200A6B55D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59E53CCD24533D2800A6B55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59E53CD024533D2800A6B55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59E53CD224533D2800A6B55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E53CD92453402200A6B55D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E53CDA2453402200A6B55D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				59E53CC324533D2700A6B55D /* ShakingNews */,
 				59E53CC224533D2700A6B55D /* Products */,
+				59E53CD82453402200A6B55D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				59E53CD224533D2800A6B55D /* Info.plist */,
 			);
 			path = ShakingNews;
+			sourceTree = "<group>";
+		};
+		59E53CD82453402200A6B55D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59E53CD92453402200A6B55D /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
