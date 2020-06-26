@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var webKitView: WKWebView!
     
-    let arrayOfSites = ["DR": "https://www.dr.dk", "Reddit": "https://www.reddit.com", "JP": "https://www.jp.dk", "Heste Nettet": "https://www.heste-nettet.dk"]
+    let arrayOfSites = ["DR": "https://www.dr.dk", "Reddit": "https://www.reddit.com", "JP": "https://www.jp.dk"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
